@@ -1,0 +1,16 @@
+# Входные данные
+product = { 
+	"id": 105, 
+	"name": "Organic Buckwheat", 
+	"price": 3.50, 
+	"stock": 100 
+}
+
+# Работа со словарем
+product["price"] = 4.20
+product["category"] = "Grains"
+discount_rate = product.get("discount", 0)
+
+# Результат
+print(product)
+print(discount_rate)
